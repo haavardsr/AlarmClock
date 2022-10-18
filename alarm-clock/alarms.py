@@ -183,8 +183,8 @@ class Alarms(tk.Frame):
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("600x185")
-    root.minsize(420, 170)
+    root.geometry("800x480")
+    root.minsize(800, 480)
     root.title("Alarms")
 
     alarms = Alarms(root)
